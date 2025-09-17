@@ -80,7 +80,7 @@ Con esta función, ya podemos implementar nuestro `dialog`.
 }
 ```
 
-Y, finalmente, ya podemos implementar, la función `confirmDialogButtonTapped`. Al modificar el tipo de ejercicio, en el modelo tendremos que poner `var` en vez de `let`. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.dialog.1)
+Y, finalmente, ya podemos implementar, la función `confirmDialogButtonTapped`. Al modificar el tipo de ejercicio, en el modelo tendremos que poner `var` en vez de `let`. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.dialog.1)
 
 ```swift
 func confirmDialogButtonTapped(type: Exercise.Mode) {
@@ -226,7 +226,7 @@ extension ExercisesModel.Destination {
 }
 ```
 
-Y ya tendríamos la implementación hecha para los dialogs. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.dialog.2)
+Y ya tendríamos la implementación hecha para los dialogs. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.dialog.2)
 
 Finalmente, con este refactor, los tests se nos han quedado obsoletos y hay que actualizados. 
 
@@ -262,4 +262,4 @@ Finalmente, con este refactor, los tests se nos han quedado obsoletos y hay que 
 }
 ```
 
-[Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.dialog.3)
+[Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.dialog.3)

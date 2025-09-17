@@ -92,7 +92,7 @@ extension Exercise {
 
 ## Creando la ExerciseRowView en SwiftUI
 
-Ahora, crearemos un nuevo fichero de SwiftUI, que va a representar cada row en un listado. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.list.1)
+Ahora, crearemos un nuevo fichero de SwiftUI, que va a representar cada row en un listado. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.list.1)
 
 > Nota: Si vienes de UIKit, habrás usado la notación Cell en los nombres de las celdas de las tablas y colecciones. Sin embargo, en SwiftUI se utiliza mucho la notación Row.
 
@@ -177,7 +177,7 @@ Entonces, nuestra preview, puede quedar de la siguiente manera.
 ```
 
 
-Podemos refactorizar la preview y hacerla un poco más ergonómica. Exercise.Mode es CaseIterable, esto significa que podemos hacer uso de allCases de la siguiente forma. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.list.2)
+Podemos refactorizar la preview y hacerla un poco más ergonómica. Exercise.Mode es CaseIterable, esto significa que podemos hacer uso de allCases de la siguiente forma. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.list.2)
 
 ```swift
 #Preview {
@@ -231,7 +231,7 @@ struct ExercisesView: View {
 }
 ```
 
-Finalmente, crearemos unas previews, pero esta vez que sean un poco más interesantes para esta pantalla. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.list.3)
+Finalmente, crearemos unas previews, pero esta vez que sean un poco más interesantes para esta pantalla. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.list.3)
 
 Primero, añadiremos otra extension en Exercise.
 
@@ -294,7 +294,7 @@ fileprivate extension Date {
 }
 ```
 
-Ahora ya podemos crear nuestra preview en ExercisesView. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.list.4)
+Ahora ya podemos crear nuestra preview en ExercisesView. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.list.4)
 
 ```swift
 #Preview {
@@ -379,7 +379,7 @@ struct NavigationDoExercisesListTests {
 }
 ```
 
-Ejecutamos los tests, y los dos que tenemos funcionan. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.list.5)
+Ejecutamos los tests, y los dos que tenemos funcionan. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.list.5)
 
 ## Alerts y Dialogs, para el próximo capítulo.
 

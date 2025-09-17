@@ -43,7 +43,7 @@ A fecha de la redacción de este artículo, usamos Xcode con versión 16.3. Crea
 * En Testing System, seleccionaremos None. Crearemos tests cuando tengamos suficiente código para testear, de momento, mejor no crear el target de test.
 * En Storage, seleccionaremos None.
 
-Pulsaremos Next y seleccionaremos el directorio donde se guardará el proyecto. Tendremos algo parecido a la siguiente imagen. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.tab.1){:target="_blank"}
+Pulsaremos Next y seleccionaremos el directorio donde se guardará el proyecto. Tendremos algo parecido a la siguiente imagen. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.tab.1){:target="_blank"}
 
 ![iOS](https://docs-assets.developer.apple.com/published/a311c2ad23768cbb9cf5bc4056725ba4/creating-your-app-s-interface-with-swiftui-1@2x.png
 )
@@ -79,7 +79,7 @@ Si todo ha ido bien, veremos una pantalla blanca en la preview y, en la parte in
 
 > Note: ¿Por qué no pruebas a añadir más de 5 items dentro de una TabView? Verás lo que ocurre.
 
-Si todo ha ido bien, tendremos algo similar a esto. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.tab.2){:target="_blank"}
+Si todo ha ido bien, tendremos algo similar a esto. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.tab.2){:target="_blank"}
 
 ```swift
 struct ContentView: View {
@@ -120,7 +120,7 @@ struct ContentView: View {
 
 Lo primero que tenemos que hacer es crear un estado para que la TabView sepa donde está. Eso lo conseguiremos con el parámetro de la TabView `selection`. `selection` es un Binding de un SelectionValue, que puede representar un Hashable. No vamos a entrar en lo que significa un Hashable por debajo, pero diremos que un entero o un string es un hashable. Entonces, podemos utilizar un entero como valor de `selection`.
 
-Y para guardar el valor del estado, utilizaremos la forma más sencilla en SwiftUI, @State. Finalmente, nos quedará asignar un estado a cada uno de los tabs. Esto se consigue con el parametro `value`. Utilizaremos, 0 para Exercises y 1 para Settings. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.tab.3){:target="_blank"}
+Y para guardar el valor del estado, utilizaremos la forma más sencilla en SwiftUI, @State. Finalmente, nos quedará asignar un estado a cada uno de los tabs. Esto se consigue con el parametro `value`. Utilizaremos, 0 para Exercises y 1 para Settings. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.tab.3){:target="_blank"}
 
 ```swift
 struct ContentView: View {
@@ -217,7 +217,7 @@ Ahora ya podemos crear nuestro primer test.
 
 Lo primero que haremos es crear el target de test llamado Unit Testing Bundle. Hay varias formas de crear un target. Puedes ir a File/New/Target y de ahí buscar el target de test. Si quieres crear el target con un nombre particular, bien puedes, pero también puedes dejar el que te ofrece, así como el resto de propiedades que salen. Eso si, asegúrate que el Testing System es Swift Testing.
 
-Ya podemos crear el primer test. Una forma de crear buenos tests es utilizar la notación Given-When-Then tanto para los nombres de los tests como en el cuerpo de la función de test. Se puede dejar una linea vacía que representa la separación entre el given, el when y el then. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.tab.4){:target="_blank"}
+Ya podemos crear el primer test. Una forma de crear buenos tests es utilizar la notación Given-When-Then tanto para los nombres de los tests como en el cuerpo de la función de test. Se puede dejar una linea vacía que representa la separación entre el given, el when y el then. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.tab.4){:target="_blank"}
 
 ```swift
 import Testing
@@ -248,4 +248,4 @@ enum Tab {
 }
 ```
 
-¿Te atreves a actualizar el proyecto tu solo? [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.tab.5){:target="_blank"}
+¿Te atreves a actualizar el proyecto tu solo? [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.tab.5){:target="_blank"}

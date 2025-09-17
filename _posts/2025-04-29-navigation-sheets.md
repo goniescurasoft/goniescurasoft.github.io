@@ -56,7 +56,7 @@ extension ExercisesModel.Destination {
 }
 ```
 
-El dialog resultante quedará así. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.sheet.1){:target="_blank"}
+El dialog resultante quedará así. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.sheet.1){:target="_blank"}
 
 ```swift
 .confirmationDialog(
@@ -129,7 +129,7 @@ func addExerciseButtonTapped() {
 }
 ```
 
-Finalmente, implementaremos el sheet en la vista. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.sheet.2){:target="_blank"}
+Finalmente, implementaremos el sheet en la vista. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.sheet.2){:target="_blank"}
 
 ```swift
 .sheet(
@@ -333,7 +333,7 @@ Ahora nos queda guardar el ejercicio en el listado. Primero añadiremos la funci
 self.model.confirmAddButtonTapped(exercise: model.exercise)
 ```
 
-Y luego la implementaremos en ExercisesModel. Como tenemos la información del listado, esta operación es muy sencilla. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.sheet.3)
+Y luego la implementaremos en ExercisesModel. Como tenemos la información del listado, esta operación es muy sencilla. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.sheet.3)
 
 ```swift
 func confirmAddButtonTapped(exercise: Exercise) {
@@ -405,7 +405,7 @@ Así pues, refactoricemos utilizando este nuevo `.sheet`.
 
 ## Testing
 
-Podemos crear un nuevo test, que simule todo el proceso de añadir un nuevo ejercicio en el listado. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.destination.1)
+Podemos crear un nuevo test, que simule todo el proceso de añadir un nuevo ejercicio en el listado. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.destination.1)
 
 ```swift
 @Test func givenExercisesWhenAddButtonTappedNewExerciseAdded() async throws {

@@ -59,7 +59,7 @@ Analicemos un momento el código anterior. Se muestra un título y un subtítulo
   }
 ```
 
-Si defines `presenting`como nil, entonces la alerta se mostrará rara. `presenting` siempre tiene que tener un valor asignado. Si el mensaje de un botón de una alerta, entonces la alerta se posiciona verticalmente. Esto hay que tenerlo en cuenta si localizamos los textos en varios idiomas. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.alert.1)
+Si defines `presenting`como nil, entonces la alerta se mostrará rara. `presenting` siempre tiene que tener un valor asignado. Si el mensaje de un botón de una alerta, entonces la alerta se posiciona verticalmente. Esto hay que tenerlo en cuenta si localizamos los textos en varios idiomas. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.alert.1)
 
 ```swift
 .alert(
@@ -86,7 +86,7 @@ Ahora que ya tenemos claro como funciona una alerta, vamos a montar la lógica r
 
 > Nota: Para ocultar la alerta, tendrás que poner en el isPresented el valor .constant(false)
 
-Para simular un botón funcional que nos sirva perfectamente en nuestra aplicación, haremos lo siguiente. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.alert.2)
+Para simular un botón funcional que nos sirva perfectamente en nuestra aplicación, haremos lo siguiente. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.alert.2)
 
 ```swift
 .swipeActions(edge: .trailing) {
@@ -142,7 +142,7 @@ Al igual que con la TabView, isPresented es un binding, por lo tanto, tenemos qu
 @Bindable var model: ExercisesModel
 ```
 
-Por último, ya podemos actualizar la alerta. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.alert.3)
+Por último, ya podemos actualizar la alerta. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.alert.3)
 
 ```swift
 .alert(
@@ -170,7 +170,7 @@ func confirmDeleteButtonTapped() {
 }
 ```
 
-Finalmente, usaremos la función dentro del botón de la alerta. Envolveremos dicha función para que se realiza una animación al borrar el ejercicio. [Ver en Github](https://github.com/lamanzanarapida/navigation-do-exercise/tree/navigation.alert.4)
+Finalmente, usaremos la función dentro del botón de la alerta. Envolveremos dicha función para que se realiza una animación al borrar el ejercicio. [Ver en Github](https://github.com/goniescurasoft/navigation-do-exercise/tree/navigation.alert.4)
 
 ```swift
 withAnimation {
